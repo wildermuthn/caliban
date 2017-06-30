@@ -1,0 +1,35 @@
+/* some style */
+
+body {
+  padding: 0;
+  margin: 0;
+  font: 10px sans-serif;
+}
+
+.chart div {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding-bottom: 0px;
+  margin: 0 0 3px 0;
+  color: white;
+  width: 0px;
+
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
